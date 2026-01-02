@@ -1,13 +1,13 @@
 Projeto Base de Aplicação Web em PHP
 Arquitetura MVC Leve para Fins Acadêmicos
 
-Apresentação
+ Apresentação:
 
 Este projeto consiste no desenvolvimento de uma estrutura base de aplicação web em PHP, organizada segundo o padrão MVC (Model–View–Controller) em sua forma leve, com o objetivo de servir como referência acadêmica para disciplinas relacionadas a programação web, arquitetura de software e boas práticas de desenvolvimento.
 
 O sistema não representa um TCC oficial, mas foi desenvolvido com os mesmos critérios técnicos, organizacionais e conceituais exigidos em trabalhos de conclusão de curso, podendo ser utilizado como modelo de estudo, base para projetos futuros ou demonstração de conhecimento técnico.
 
-Objetivo Geral
+ Objetivo Geral:
 
 Desenvolver uma aplicação web em PHP com foco em:
 
@@ -21,7 +21,7 @@ Escalabilidade
 
 Clareza arquitetural
 
-Objetivos Específicos
+ Objetivos Específicos:
 
 Aplicar o padrão MVC sem uso de frameworks
 
@@ -33,9 +33,9 @@ Estruturar o projeto de forma compreensível e reutilizável
 
 Criar uma base sólida para aplicações web acadêmicas ou profissionais
 
-Arquitetura Utilizada
+ Arquitetura Utilizada:
 
-O projeto utiliza uma arquitetura MVC Leve, onde:
+  O projeto utiliza uma arquitetura MVC Leve, onde:
 
 Model: Responsável pela comunicação com o banco de dados e representação dos dados
 
@@ -51,7 +51,7 @@ Front Controller: Um único ponto de entrada (public/index.php)
 
 Essa abordagem foi escolhida por sua simplicidade, clareza didática e proximidade com padrões utilizados no mercado.
 
-Estrutura de Pastas
+ Estrutura de Pastas:
 
 /app
  ├── Controllers   → Controle das requisições
@@ -65,7 +65,7 @@ Estrutura de Pastas
 /public            → Arquivos acessíveis via navegador
 /storage           → Logs e arquivos temporários
 
-Segurança e Boas Práticas
+ Segurança e Boas Práticas:
 
 Utilização de arquivo .env para dados sensíveis
 
@@ -75,7 +75,7 @@ Evita exposição direta de lógica PHP ao navegador
 
 Organização voltada à manutenção e crescimento do sistema
 
-Tecnologias Utilizadas
+ Tecnologias Utilizadas:
 
 PHP (sem frameworks)
 
@@ -89,13 +89,13 @@ Servidor Apache ou Nginx
 
 MySQL (opcional / simulado)
 
-Status do Projeto
+ Status do Projeto:
 
 Projeto acadêmico / base estrutural
 
 Não possui foco em funcionalidades completas, mas sim na arquitetura e organização do código.
 
-Considerações Acadêmicas
+ Considerações Acadêmicas:
 
 Este projeto foi desenvolvido como exercício prático e conceitual, simulando um trabalho de conclusão de curso, com o intuito de demonstrar:
 
@@ -107,10 +107,10 @@ Boas práticas de desenvolvimento web
 
 Organização e documentação de projetos
 
-Licença
+ Licença:
 
 Este projeto é de uso educacional, podendo ser adaptado e reutilizado para fins de estudo.
 
-Observação Final
+ Observação Final:
 
 Este repositório não tem como objetivo competir com frameworks consolidados, mas sim demonstrar domínio dos conceitos fundamentais que sustentam tais ferramentas.
